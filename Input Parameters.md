@@ -1,4 +1,4 @@
-<a href="./README.md">Back to the README main page</a>
+<a href="./How to Use PyPRS.md">Back to the How to Use PyPRS page</a>
 ## 📋 Input Parameters for GSP
 
 | Parameter                  | Explanation                                                                 |
