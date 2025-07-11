@@ -43,7 +43,7 @@ Once the file is executed, the **Graphical User Interface (GUI)** will launch. I
 To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 
 #### 1) Configuring Input Parameters
-Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please go to the <a href="aaa">Input Parameters</a> page.
+Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please go to the <a href="./Input Parameters.md">Input Parameters.md</a> file.
 
 #### 2) Uploading Required Files
 In addition to configuring parameters, users must upload two files:
