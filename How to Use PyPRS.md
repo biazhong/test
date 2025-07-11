@@ -7,20 +7,24 @@ To run PyPRS on a single computer, users just need to execute the `GUI.py` file 
 ```bash
 python GUI.py
 ```
-Once the file is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can **select a procedure**, **configure input parameters**, **upload required files**, and **run the procedure**.
+Once the file is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can:
+- **select a procedure**
+- **configure input parameters**
+- **upload required files**
+- **run the procedure**
 
-<!--- Below is a screenshot of the GUI:
+Below is a screenshot of the GUI:
 
-  <img width="379.52" height="396.8" alt="image" src="https://github.com/user-attachments/assets/11314524-ebef-4662-b1dc-4b184b50c0db" />--->
+  <img width="379.52" height="396.8" alt="image" src="https://github.com/user-attachments/assets/11314524-ebef-4662-b1dc-4b184b50c0db" />
 
 ### 1.1 Setting Up a Built-in Procedure
 To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 
 #### 1) Configuring Input Parameters
-Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please visit the <a href="./Input Parameters.md">Input Parameters.md</a> file.
+Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please visit the <a href="./Input Parameters.md">Input Parameters</a> page.
 
 #### 2) Uploading Required Files
-In addition to configuring parameters, users must upload two files:
+In addition to configuring parameters, users must upload two files: one is a `.txt` file and the other one is a `.py`file. For detailed discussion about these two files, please visit the <a href="./Uploading Files.md">Uploadign Files</a> page.
 
 #### 📄 i. The `.txt` File
 Defines parameter information for each alternative.
