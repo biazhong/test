@@ -29,5 +29,9 @@ In addition to configuring parameters, users must upload two files: one is the *
 
 
 ### 1.2 Setting Up a Custom Procedure
+To use a custom procedure, follow these steps:
+
+#### 1) Configuring Input Parameters
+
 
 ## 2 🌐 Running PyPRS on a Cluster
