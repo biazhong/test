@@ -1,3 +1,5 @@
+# <a href="README.md">Main Page</a>  <a href="./files/How to Use PyPRS.md">How to Use PyPRS  <a href="./files/A Demo Application.md">A Demo Application</a>
+
 # PyPRS: A Python Software Package for Parallel Ranking and Selection Procedures
 
 
