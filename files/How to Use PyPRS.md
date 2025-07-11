@@ -1,4 +1,4 @@
-<a href="../README.md">Back to the README main page</a>
+[**Main Page**](README.md) | [**How to Use PyPRS**](./files/How%20to%20Use%20PyPRS.md) | [**A Demo Application**](./files/A%20Demo%20Application.md)
 # ⚙️ How to Use PyPRS
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
