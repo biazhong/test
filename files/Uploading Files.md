@@ -75,3 +75,4 @@ def simulation_function(argsSim, seedSim) -> float:
     # Return the result as a float
     return float(result)
 ```
+<a href="How to Use PyPRS.md">Back to the How to Use PyPRS page</a>
