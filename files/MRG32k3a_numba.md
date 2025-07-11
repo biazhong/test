@@ -1,6 +1,6 @@
 [**Main Page**](../README.md) | [**How to Use PyPRS**](How%20to%20Use%20PyPRS.md) | [**A Demo Application**](A%20Demo%20Application.md)
 
-<a href="Uploading Files.md">Back to the Uploading Files page</a>
+
 # MRG32k3a_numba Package
 
 The `mrg32k3a_numba` package provides a Python implementation of the MRG32k3a random number generator, designed to be compatible with Numba-accelerated functions. The MRG32k3a, introduced by  L’Ecuyer (1999) and L’Ecuyer et al. (2002)., is a high-quality RNG with an exceptionally long period of approximately $2^{191}$ and has been rigorously tested for statistical robustness. This implementation builds on the work of Eckman et al. (2023) and addresses the limitation of the original MRG32k3a implementation, which was not compatible with Numba, a just-in-time compiler that optimizes Python code for numerical computations by translating it into machine code.
@@ -44,7 +44,7 @@ The `MRG32k3a_numba` class provides the following key methods:
 - L’Ecuyer P, Simard R, Chen EJ, Kelton WD (2002) An object-oriented random-number package with many long streams and substreams. Operations Research 50(6):1073–1075.
 
 
-
+<a href="Uploading Files.md">Back to the Uploading Files page</a>
 
 
 
