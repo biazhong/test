@@ -1,4 +1,4 @@
-<a href="./readme.md">Back to README Main Page</a>
+<a href="./README.md">Back to README Main Page</a>
 ## 📋 Input Parameters for GSP
 
 | Parameter                  | Explanation                                                                 |
