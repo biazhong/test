@@ -1,6 +1,6 @@
 [**Main Page**](../README.md) | [**How to Use PyPRS**](How%20to%20Use%20PyPRS.md) | [**A Demo Application**](A%20Demo%20Application.md)
 
-<a href="How to Use PyPRS.md">Back to the How to Use PyPRS page</a>
+
 ## 📋 Input Parameters for GSP
 
 | Parameter                  | Explanation                                                                 |
@@ -50,3 +50,5 @@
 | `Number of Processors`     | Number of processors used to run the procedure.                            |
 | `Repeat`                   | Number of times the problem is repeatedly solved.                          |
 | `Reference Seed (Optional)` | Seed used to initialize random number generators.                          |
+
+<a href="How to Use PyPRS.md">Back to the How to Use PyPRS page</a>
