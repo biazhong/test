@@ -27,6 +27,8 @@ python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```bash
 python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```
+
+To use PyPRS, please visit the <a href="How to Use PyPRS.md"> How to Use PyPRS</a> page.
 ## ⚙️ How to Use PyPRS
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
