@@ -24,7 +24,7 @@ To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please visit the <a href="./Input Parameters.md">Input Parameters</a> page.
 
 #### 2) Uploading Required Files
-In addition to configuring parameters, users must upload two files: one is a `.txt` file and the other one is a `.py`file. For detailed discussion about these two files, please visit the <a href="./Uploading Files.md">Uploadign Files</a> page.
+In addition to configuring parameters, users must upload two files: one is a `.txt` file and the other one is a `.py`file. For detailed discussion about these two files, please visit the <a href="./Uploading Files.md">Uploading Files</a> page.
 
 #### 📄 i. The `.txt` File
 Defines parameter information for each alternative.
