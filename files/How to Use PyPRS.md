@@ -1,4 +1,4 @@
-<a href="./README.md">Back to the README main page</a>
+<a href="../README.md">Back to the README main page</a>
 # ⚙️ How to Use PyPRS
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
