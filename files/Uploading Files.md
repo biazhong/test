@@ -1,4 +1,4 @@
-## 📄 i. The `.txt` File
+## 1 The `.txt` File
 Defines parameter information for each alternative.
 - **Structure**:
   - Each line represents one alternative.
@@ -17,7 +17,7 @@ In this example:
 
 *Notes*: All values must be numerical. Non-numeric values will cause errors.
 
-## 🐍 ii. The `.py` File
+## 2 The `.py` File
 Defines a Python function named `simulation_function`, which is responsible for generating a **simulation sample** from a given alternative using specific random number sequences.
 
 **Arguments**
