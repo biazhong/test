@@ -19,7 +19,7 @@ Users can also upload custom procedures to test and compare performance against 
 python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```
 
-## 1. 📦 Installation
+## 📦 Installation
 #### Option 1: Download from Repository
 1. Download the PyPRS folder from the source repository.
 2. Open it in a Python environment.
@@ -27,10 +27,10 @@ python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```bash
 python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```
-## 2. 🚀 How to Use PyPRS
+## How to Use PyPRS
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
-## 2.1 Running PyPRS on a Single Computer
+## 1. 🖥️ Running PyPRS on a Single Computer
 To run PyPRS on a single computer, users just need to execute the `GUI.py` file located in the `UserInterface` package in a Python environment:
 ```bash
 python GUI.py
@@ -41,7 +41,7 @@ Once the file is executed, the **Graphical User Interface (GUI)** will launch. I
 
   <img width="379.52" height="396.8" alt="image" src="https://github.com/user-attachments/assets/11314524-ebef-4662-b1dc-4b184b50c0db" />--->
 
-### 2.1.1 Setting Up a Built-in Procedure
+### 1.1 Setting Up a Built-in Procedure
 To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 
 #### 1) Configuring Input Parameters
@@ -90,8 +90,8 @@ PyPRS uses the `MRG32k3a_numba` package for random number generation. For more d
 
 Note that to initialize the instances of `MRG32k3a_numba`, the argument `seedSim` must be provided.  In cases where two sources of randomness are required, users can assign different seeds to the two instances as follows: 
 
-- The first instance is seeded with `[seedSim[0],seedSim[1]+1,seedSim[2]]`
-- The second instance is seeded with `[seedSim[0],seedSim[1]+2,seedSim[2]]`, respectively.
+- The first instance is seeded with `[seedSim[0],seedSim[1]+1,seedSim[2]]`.
+- The second instance is seeded with `[seedSim[0],seedSim[1]+2,seedSim[2]]`.
 
 ***Numba Optimization***
 
@@ -99,7 +99,7 @@ PyPRS allows users to apply the `numba` decorator to optimize the `simulation_fu
 
 ***Output***
 
-The output of the function should be a float that records the simulation output for one run of the simulation model.
+The output of the function should be a float that records the output for one run of the simulation model.
 
 ***Function Template***
 ```python
@@ -121,7 +121,7 @@ def simulation_function(argsSim, seedSim) -> float:
     rng2 = MRG32k3a_numba(seedSim[0], seedSim[1] + 2, seedSim[2]) # Second random number generator
     # Add more random number generators as needed...
 
-    # Users can replace the following lines with their own custom logic
+    # Users can replace the following lines with their own custom simulation logic
     random_val_1 = rng1.random() # Get a random value from rng1
     random_val_2 = rng2.random() # Get a random value from rng2
     result = (x1 * random_val_1 + x2 * random_val_2) / x3 # Example calculation
@@ -130,14 +130,6 @@ def simulation_function(argsSim, seedSim) -> float:
     return float(result)
 ```
 
-🛠️ Summary
-To use PyPRS effectively:
+### 1.2 Setting Up a Custom Procedure
 
-Install PyPRS via direct download or PyPI.
-Run the GUI to configure and execute procedures.
-Set input parameters for your chosen procedure (GSP, KT, PASS, or FBKT).
-Upload required files:
-A .txt file with alternative parameters.
-A .py file defining the simulation_function with proper random number generation.
-This setup enables you to solve large-scale R&S problems efficiently using PyPRS.
-
+## 2. 🌐 Running PyPRS on a Cluster
