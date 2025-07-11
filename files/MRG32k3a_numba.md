@@ -11,7 +11,7 @@ The period of the MRG32k3a random number generator is structured hierarchically:
 - **Subsubstreams**: Each substream contains $2^{47}$ subsubstreams, each with a length of $2^{47}$.
 
 # Installation
-To install the `mrg32k3a_numba` package, run the following command in your terminal or command prompt:
+To install the `mrg32k3a_numba` package, run the following command in the terminal or command prompt:
 ```bash
 python -m pip install mrg32k3a_numba
 ```
