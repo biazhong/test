@@ -1,5 +1,7 @@
 # PyPRS: A Python Software Package for Parallel Ranking and Selection Procedures
 
+
+
 **PyPRS** is a Python software package specifically developed to solve large-scale ranking and selection (R&S) problems in parallel computing environments. The underlying parallel computing framework is **Ray**. PyPRS incorporates four well-known parallel procedures: 
 
 - **The Good Selection Procedure (GSP)**
@@ -26,7 +28,7 @@ python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```
 ## 2. 🚀 How to Use PyPRS
-This section provides instructions for running PyPRS on a **single computer** or a **cluster**.
+This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
 ## 2.1 Running PyPRS on a Single Computer
 To run PyPRS on a single computer, users just need to execute the `GUI.py` file located in the `UserInterface` package in a Python environment:
@@ -43,7 +45,7 @@ Once the file is executed, the **Graphical User Interface (GUI)** will launch. I
 To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 
 #### 1) Configuring Input Parameters
-Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please go to the <a href="./Input Parameters.md">Input Parameters.md</a> file.
+Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please visit the <a href="./Input Parameters.md">Input Parameters.md</a> file.
 
 #### 2) Uploading Required Files
 In addition to configuring parameters, users must upload two files:
@@ -81,7 +83,7 @@ Defines a Python function named `simulation_function`, which is responsible for 
 
 ***Random Number Generation***
 
-PyPRS uses the `MRG32k3a_numba` package for random number generation. For more details about the `MRG32k3a_numba` package, please go to the <a href="adsdf">MRG32k3a_numba</a> page. If the simulation process requires multiple sources of randomness (e.g., interarrival times and service times in a queueing model), users can initialize multiple instances of `MRG32k3a_numba`. A source of randomness refers to distinct needs for random numbers in a simulation model. For example, a single-server queueing model might use:
+PyPRS uses the `MRG32k3a_numba` package for random number generation. For more details about the `MRG32k3a_numba` package, please visit the <a href="./MRG32k3a_numba.md">MRG32k3a_numba.md</a> file. If the simulation process requires multiple sources of randomness (e.g., interarrival times and service times in a queueing model), users can initialize multiple instances of `MRG32k3a_numba`. A source of randomness refers to distinct needs for random numbers in a simulation model. For example, a single-server queueing model might use:
 
 - One random number generator for interarrival times.
 - Another random number generator for service times.
