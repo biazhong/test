@@ -81,16 +81,15 @@ Defines a Python function named `simulation_function`, which is responsible for 
 
 ***Random Number Generation***
 
-PyPRS uses the `MRG32k3a_numba` package for random number generation. If the simulation process requires multiple sources of randomness (e.g., interarrival times and service times in a queueing model), users can initialize multiple instances of `MRG32k3a_numba`.
-
-***What is a "Source of Randomness"?***
-
-A source of randomness refers to distinct needs for random numbers in a simulation model. For example, a single-server queueing model might use:
+PyPRS uses the `MRG32k3a_numba` package for random number generation. For more details about the `MRG32k3a_numba` package, please go to the <a href="adsdf">MRG32k3a_numba</a> page. If the simulation process requires multiple sources of randomness (e.g., interarrival times and service times in a queueing model), users can initialize multiple instances of `MRG32k3a_numba`. A source of randomness refers to distinct needs for random numbers in a simulation model. For example, a single-server queueing model might use:
 
 - One random number generator for interarrival times.
 - Another random number generator for service times.
 
-To handle multiple sources of randomness, users can initialize two instances of `MRG32k3a_numba`. Note that to initialize the instances of `MRG32k3a_numba` `seedSim` is needed.  For example, if two instances of `MRG32k3a_numba` are needed for two sources of randomness in the simulation model, users can seed them with the lists `[seedSim[0],seedSim[1]+1,seedSim[2]]` and `[seedSim[0],seedSim[1]+2,seedSim[2]]`, respectively.
+Note that to initialize the instances of `MRG32k3a_numba`, the argument `seedSim` must be provided.  In cases where two sources of randomness are required, users can assign different seeds to the two instances as follows: 
+
+- The first instance is seeded with `[seedSim[0],seedSim[1]+1,seedSim[2]]`
+- The second instance is seeded with `[seedSim[0],seedSim[1]+2,seedSim[2]]`, respectively.
 
 ***Numba Optimization***
 
