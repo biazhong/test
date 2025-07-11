@@ -34,7 +34,7 @@ Defines a Python function named `simulation_function`, which is responsible for 
 
 PyPRS uses the `MRG32k3a_numba` package for random number generation. (For more details about the `MRG32k3a_numba` package, please visit the <a href="./MRG32k3a_numba.md">MRG32k3a_numba</a> page.) If the simulation process requires multiple sources of randomness (e.g., interarrival times and service times in a queueing model), users can initialize multiple instances of `MRG32k3a_numba`. A source of randomness refers to distinct needs for random numbers in a simulation model. For example, a simple single-server queueing model might designate two such sources of randomness: one for interarrival times and one for service times.
 
-In the simulation_function, whenever instances of `MRG32k3a_numba` are initialized, proper seeding is required. For example, when two independent sources of randomness are needed within the `simulation_function`, the seedSim parameter can be used to seed the instances as follows:
+In the simulation_function, whenever instances of `MRG32k3a_numba` are initialized, proper seeding is required. For example, when two independent sources of randomness are needed within the `simulation_function`, the `seedSim` parameter can be used to seed the instances as follows:
 
  - The first instance is seeded using `[seedSim[0], seedSim[1]+1, seedSim[2]]`.
  - The second instance is seeded using `[seedSim[0], seedSim[1]+2, seedSim[2]]`.
