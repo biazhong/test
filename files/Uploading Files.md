@@ -51,6 +51,7 @@ The output of the function should be a float that records the output for one run
 ```python
 from mrg32k3a_numba import MRG32k3a_numba
 import numba
+import numpy as np
 
 # Apply the @numba.njit decorator for better performance
 @numba.njit
@@ -63,8 +64,8 @@ def simulation_function(argsSim, seedSim) -> float:
     # Extract more as needed...
 
     # Initialize random number generators based on seedSim
-    rng1 = MRG32k3a_numba(seedSim[0], seedSim[1] + 1, seedSim[2]) # First random number generator
-    rng2 = MRG32k3a_numba(seedSim[0], seedSim[1] + 2, seedSim[2]) # Second random number generator
+    rng1 = MRG32k3a_numba(np.array(seedSim[0], seedSim[1] + 1, seedSim[2])) # First random number generator
+    rng2 = MRG32k3a_numba(np.array(seedSim[0], seedSim[1] + 2, seedSim[2])) # Second random number generator
     # Add more random number generators as needed...
 
     # Users can replace the following lines with their own custom simulation logic
