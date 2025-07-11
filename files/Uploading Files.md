@@ -46,7 +46,7 @@ PyPRS allows users to apply the `numba` decorator to optimize the `simulation_fu
 
 The output of the function should be a float that records the output for one run of the simulation model.
 
-*Function Template*
+**Function Template**
 ```python
 from mrg32k3a_numba import MRG32k3a_numba
 import numba
