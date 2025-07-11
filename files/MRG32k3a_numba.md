@@ -128,7 +128,6 @@ The `MRG32k3a_numba` class provides the following key methods:
 - L’Ecuyer P, Simard R, Chen EJ, Kelton WD (2002) An object-oriented random-number package with many long streams and substreams. Operations Research 50(6):1073–1075.
 
 
-<a href="Uploading Files.md">Back to the Uploading Files page</a>
 
 
 
