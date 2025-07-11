@@ -15,7 +15,7 @@ To install the `mrg32k3a_numba` package, run the following command in the termin
 python -m pip install mrg32k3a_numba
 ```
 # Initializing an Instance
-To use the random number generator, create an instance of the `MRG32k3a_numba` class and seed it with a NumPy array of three non-negative integers [s, ss, sss], where:
+To use the random number generator, create an instance of the `MRG32k3a_numba` class and seed it with a NumPy array of three non-negative integers `[s, ss, sss]`, where:
 - `s`: The index of the stream.
 - `ss`: The index of the substream within the chosen stream.
 - `sss`: The index of the subsubstream within the chosen substream.
