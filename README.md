@@ -27,7 +27,7 @@ python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```bash
 python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```
-## How to Use PyPRS
+## ⚙️ How to Use PyPRS
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
 ## 1. 🖥️ Running PyPRS on a Single Computer
@@ -72,7 +72,7 @@ In this example:
 #### 🐍 ii. The `.py` File
 Defines a Python function named `simulation_function`, which is responsible for generating a **simulation sample** from a given alternative using specific random number sequences.
 
-***Arguments***
+*Arguments*
 - **`argsSim`** (List of Floats):
   - Contains the parameter information of the alternative.
   - Format matches the `.txt` file:
@@ -81,7 +81,7 @@ Defines a Python function named `simulation_function`, which is responsible for 
 - **`seedSim`**  (List of Integers):
   - A list of three positive integers used to seed the random number generators.
 
-***Random Number Generation***
+*Random Number Generation*
 
 PyPRS uses the `MRG32k3a_numba` package for random number generation. (For more details about the `MRG32k3a_numba` package, please visit the <a href="./MRG32k3a_numba.md">MRG32k3a_numba.md</a> file.) If the simulation process requires multiple sources of randomness (e.g., interarrival times and service times in a queueing model), users can initialize multiple instances of `MRG32k3a_numba`. A source of randomness refers to distinct needs for random numbers in a simulation model. For example, a simple single-server queueing model might designate two such sources of randomness: one for interarrival times and one for service times.
 
@@ -90,15 +90,15 @@ In the simulation_function, whenever instances of `MRG32k3a_numba` are initializ
  - The first instance is seeded using `[seedSim[0], seedSim[1]+1, seedSim[2]]`.
  - The second instance is seeded using `[seedSim[0], seedSim[1]+2, seedSim[2]]`.
 
-***Numba Optimization***
+*Numba Optimization*
 
 PyPRS allows users to apply the `numba` decorator to optimize the `simulation_function` for faster execution. For more details about this technique, please visit the official <a href="https://numba.pydata.org/">Numba site</a>
 
-***Output***
+*Return*
 
 The output of the function should be a float that records the output for one run of the simulation model.
 
-***Function Template***
+*Function Template*
 ```python
 from mrg32k3a_numba import MRG32k3a_numba
 import numba
