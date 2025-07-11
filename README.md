@@ -57,7 +57,11 @@ Below is a screenshot of the GUI:
 To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 
 ##### 1) Configuring Input Parameters
-Each procedure requires specific input parameters. Below are the parameters for each built-in procedure.
+Each procedure requires specific input parameters.  For detailed input parameters and their explanations for each procedure, see the details listed below:
+- <a href="aaa">Input Parameters for GSP</a>
+- <a href="aaa"> Input Parameters for the KT Procedure </a>
+- <a href="aaa"> Input Parameters for the PASS Procedure</a>
+- <a href="aaa"> Input Parameters for the FBKT Procedure</a>
 
 ##### 📋 Input Parameters for GSP
 
