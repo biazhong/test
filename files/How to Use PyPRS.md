@@ -46,5 +46,5 @@ In addition to these two default input parameters, users can define other custom
 
 #### 2) Uploading Required Files
 
-When using a custom procedure, users also need to upload the **alternatives infromation file** and the **simulation function file**. Besides these two files, users must upload a **procedure file** (a **`.py`** file). In this file, users must define a function named custom_procedure, which implements the computational steps for one run of the custom procedure.  For detailed discussions about the file, please go to <a href="./Procedure File.md">Procedure File</a>.
+When using a custom procedure, users also need to upload the **alternatives infromation file** and the **simulation function file**. Besides these two files, users must upload a **procedure file** (a **`.py`** file). In this file, users must define a function named `custom_procedure`, which implements the computational steps for one run of the custom procedure.  For detailed discussions about the file, please go to <a href="./Procedure File.md">Procedure File</a>.
 ## 2 🌐 Running PyPRS on a Cluster
