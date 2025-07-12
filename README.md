@@ -33,5 +33,5 @@ python -m pip install PyPRS
 ## 🔍 Technical References
 - [**Input Parameters**](./files/Input%20Parameters%20Main.md)
 - [**Uploading Files**](./files/Uploading%20Files%20Main.md)
-- [**MRG32k3a_numba**](./files/MRG32k3a_numba.md)
+- [**MRG32k3a_numba**](./files/MRG32k3a_numba%20Main.md)
 <p align="right"><a href="./files/How to Use PyPRS.md"> Proceed to How to Use PyPRS</a></p>
