@@ -70,4 +70,5 @@ python GUI.py
 
 PyPRS enables users to run procedures via scripts, alongside the GUI. This supports varied user needs and allows easy integration into automated workflows or complex computational pipelines. For more details, please go to <a href="Scripts for Invoking the Procedures in PyPRS.md">Scripts for Invoking the Procedures in PyPRS</a>.
 
+<a href="./Output.md"> Proceed to Output</a>
 
