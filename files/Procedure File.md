@@ -26,7 +26,7 @@ Before creating the `custom_procedure` function, ensure the following:
  
 **Selection Process**
 
-Based on the information provided in the arguments, users must implement a custom selection process, which includes defining how the procedure leverages Ray for parallelization. For guidance on programming and using Ray, refer to the official <a href="https://docs.ray.io/en/latest/index.html">Ray</a> website.
+Based on the information provided in the arguments, users must implement a custom selection process, which includes defining how the procedure leverages Ray for parallelization. For guidance on programming and using Ray, refer to the <a href="https://docs.ray.io/en/latest/index.html">official Ray website</a>.
 
 
 
