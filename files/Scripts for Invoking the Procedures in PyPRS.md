@@ -101,8 +101,8 @@ custom_config = {
     # Required input parameters
     "Number of Processors": <value>,  # (int)
     "Repeat": <value>,  # (int)
-    "Alternatives Information File": "data/alternatives.txt",  # (str)
-    "Simulation Function File": "simulations/my_simulation.py"  # (str)
+    "Alternatives Information File": "<path/to/file.txt>",  # (str)
+    "Simulation Function File": "<path/to/file.txt>"  # (str)
 }
 
 custom_result = custom_procedure.run_procedure(custom_config)
