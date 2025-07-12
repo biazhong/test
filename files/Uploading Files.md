@@ -71,8 +71,8 @@ def simulation_logic(argsSim, rng1, rng2) -> float:
 
 def simulation_function(argsSim, seedSim) -> float:
     # Initialize random number generators based on seedSim
-    rng1 = MRG32k3a_numba(np.array(seedSim[0], seedSim[1] + 1, seedSim[2])) # First random number generator
-    rng2 = MRG32k3a_numba(np.array(seedSim[0], seedSim[1] + 2, seedSim[2])) # Second random number generator
+    rng1 = MRG32k3a_numba(np.array[seedSim[0], seedSim[1] + 1, seedSim[2]]) # First random number generator
+    rng2 = MRG32k3a_numba(np.array[seedSim[0], seedSim[1] + 2, seedSim[2]]) # Second random number generator
     # Add more random number generators as needed...
 
     # Call the accelerated simulation logic
