@@ -90,7 +90,7 @@ fbkt_result = fbkt_procedure.run_procedure(fbkt_config)
 ```python
 from PyPRS.procedure import Procedure
 	
-custom_procedure = Procedure("<path/to/file.py>") # (str) Path to the custom procedure
+custom_procedure = Procedure("<path/to/file.py>") # (str) Path to the custom procedure file
 
 custom_config = {
     # User-defined input parameters (optional, customizable)
