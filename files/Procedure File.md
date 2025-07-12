@@ -34,7 +34,7 @@ Before creating the `custom_procedure` function, ensure the following:
  
 **Selection Process**
 
-Based on the information provided in the arguments, users must implement a custom selection process, which includes defining how the best alternative is selected and the procedure leverages Ray for parallelization. For guidance on programming and using Ray, refer to the official <a href="https://docs.ray.io/en/latest/index.html">Ray site</a>.
+Based on the descriptions of **Arguments**, with `alternatives`, users can generate simulation samples from each alterantive, and get and set various details for each alternative. The `configs` dictionary provides procedure-specific input parameters, while `replication` helps manage random number seeds or implement Common Random Numbers. With these arguments, users can implement a custom selection process, which includes defining how the best alternative is selected and the procedure leverages Ray for parallelization. For guidance on programming and using Ray, refer to the official <a href="https://docs.ray.io/en/latest/index.html">Ray site</a>.
 
 
 
