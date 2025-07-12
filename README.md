@@ -1,4 +1,4 @@
-[**Main Page**](README.md) | [**How to Use PyPRS**](./files/How%20to%20Use%20PyPRS.md) | [**Output**](./files/Output.md) | [**A Demo Application**](./files/A%20Demo%20Application.md) | [**MRG32k3a_numba**](./files/MRG32k3a_numba.md)
+[**Main Page**](README.md) | [**How to Use PyPRS**](./files/How%20to%20Use%20PyPRS.md) ([**MRG32k3a_numba**](./files/MRG32k3a_numba.md))| [**Output**](./files/Output.md) | [**A Demo Application**](./files/A%20Demo%20Application.md)
 
 
 # PyPRS: A Python Software Package for Parallel Ranking and Selection Procedures
