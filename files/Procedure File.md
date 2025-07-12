@@ -16,9 +16,17 @@ Before creating the `custom_procedure` function, ensure the following:
   - Each instance corresponds to an alternative specified in the **alternatives information file** (**`.txt`** file).
   - The `SampleGenerate` class provides methods to manage simulations and alternative details, including:
     - `alternatives[i].get_args()`: Retrieves the alternative's parameter information as a **list** of floats, formatted consistently with the structure defined in the **alternatives information file**.
-    - `alternatives[i].set_seed(seed)`: Sets the random number seed for the alternative's next simulation run, where `seed` is a **list** containing 3 non-negative integers.
+    - `alternatives[i].set_seed(seed)`: Sets the random number seed for the alternative's next simulation run where `seed` is a **list** containing 3 non-negative integers.
     - `alternatives[i].get_seed()`: Retrieves the random number seed for the alternative's next simulation run as a **list** of 3 non-negative integers.
-    - `alternatives[i].run_simulation()`: Executes the `simulation_function`, passing the values of `alternatives[i].get_args()` to `argsSim` and `alternatives[i].get_seed()` to `seedSim`， and returns the simulation output as a float.
+    - `alternatives[i].run_simulation()`: Executes the `simulation_function`, passing the values of `alternatives[i].get_args()` to `argsSim` and `alternatives[i].get_seed()` to `seedSim`, and returns the simulation output as a float.
+    - `alternatives[i].get_mean()`: Retrieves the alternative's sample mean as a float.
+    - `alternatives[i].set_mean(mean)`: Sets the alternative's sample mean where `mean` is a float.
+    - `alternatives[i].get_num()`: Retrieves the alternative's sample size as an integer.
+    - `alternatives[i].set_num(num)`: Sets the alternative's sample size where `num` is an integer.
+    - `alternatives[i].get_s2()`: Retrieves the alternative's sample variance as a float.
+    - `alternatives[i].set_s2(s2)`: Sets the alternative's sample variance where `s2` is a float.
+    - `alternatives[i].get_simulation_time()`: Retrieves the total time spent in generating simulation samples for the alternative as a float.
+    - `alternatives[i].set_simulation_time(simulation_time)`: Sets the alternative's simulation time where `simulation_time` is a float.
 - **`configs`**: A dictionary containing input parameters.
   - Keys are parameter names, and values are the corresponding values specified in the GUI.
 - **`replication`**: An integer that records the number of times the procedure has been applied to solve the problem.
