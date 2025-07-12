@@ -48,3 +48,26 @@ In addition to these two default input parameters, users can define other custom
 
 When using a custom procedure, users also need to upload the **alternatives infromation file** and the **simulation function file**. Besides these two files, users must upload a **procedure file** (a **`.py`** file). In this file, users must define a function named `custom_procedure`, which implements the computational steps for one run of the custom procedure.  For detailed discussions about the file, please go to <a href="./Procedure File.md">Procedure File</a>.
 ## 2 🌐 Running PyPRS on a Cluster
+Running PyPRS on a cluster follows a process similar to running it on a single computer, with additional steps to configure the cluster and ensure proper communication among the computers. Note that **deploying a Ray cluster is supported only on Linux**.
+### 2.1 Setting Up the Ray Cluster
+To establish a Ray cluster, follow these steps:
+
+1. **Designate a Head Node**: Choose one computer as the head node to coordinate the cluster.
+2. **Initialize the Head Node**: On the head node, run the following command in the terminal to start the Ray cluster:
+```bush
+ray start --head --port=6379
+```
+3. **Connect Worker Nodes**: On each of the other computers (worker nodes), run the following command to connect to the head node, replacing `HEAD_NODE_IP` with the Internet Protocol (IP) address of the head node:
+```bush
+ray start --address=HEAD_NODE_IP:6379
+```
+### 2.2 Running PyPRS on the Cluster
+After setting up the Ray cluster, users can run PyPRS on the head node using the same process described in running PyPRS on a single computer. Execute the GUI.py file on the head node:
+```bush
+python GUI.py
+```
+## 📖Notes
+
+PyPRS enables users to run procedures via scripts, alongside the GUI. This supports varied user needs and allows easy integration into automated workflows or complex computational pipelines. For more details, please go to <a href="Scripts for Invoking the Procedures in PyPRS.md">Scripts for Invoking the Procedures in PyPRS</a>.
+
+
