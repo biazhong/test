@@ -39,9 +39,10 @@ In the simulation_function, whenever instances of `MRG32k3a_numba` are initializ
  - The first instance is seeded using `[seedSim[0], seedSim[1]+1, seedSim[2]]`.
  - The second instance is seeded using `[seedSim[0], seedSim[1]+2, seedSim[2]]`.
 
-**Numba Optimization**
+**Numba Acceleration**
 
-PyPRS allows users to apply the `numba` decorator to optimize the `simulation_function` for faster execution. For more details about this technique, please visit the official <a href="https://numba.pydata.org/">Numba site</a>
+PyPRS allows users to apply the `numba` library to accelerate computationally intensive parts of the `simulation_function`. By using Numba's Just-In-Time compilation, users can optimize specific code segments for faster execution. For details on how to implement and optimize with Numba, refer to the official  <a href="https://numba.pydata.org/">Numba site</a>
+
 
 **Return**
 
@@ -53,9 +54,10 @@ from mrg32k3a_numba import MRG32k3a_numba
 import numba
 import numpy as np
 
-# Apply the @numba.njit decorator for better performance
+# Apply the @numba.njit decorator to accelerate computations
 @numba.njit(cache=True)
-def simulation_function(argsSim, seedSim) -> float:
+def simulation_logic(argsSim, rng1, rng2) -> float:
+    # Users can modify this function to implement custom simulation logic
     # Extract alternative's parameter information from argsSim
     idx= argsSim[0]  # Index
     x1 = argsSim[1]  # Parameter 1
@@ -63,15 +65,18 @@ def simulation_function(argsSim, seedSim) -> float:
     x3 = argsSim[3]  # Parameter 3
     # Extract more as needed...
 
+    random_val_1 = rng1.random() # Get a random value from rng1
+    random_val_2 = rng2.random() # Get a random value from rng2
+    return (x1 * random_val_1 + x2 * random_val_2) / x3 # Example calculation
+
+def simulation_function(argsSim, seedSim) -> float:
     # Initialize random number generators based on seedSim
     rng1 = MRG32k3a_numba(np.array(seedSim[0], seedSim[1] + 1, seedSim[2])) # First random number generator
     rng2 = MRG32k3a_numba(np.array(seedSim[0], seedSim[1] + 2, seedSim[2])) # Second random number generator
     # Add more random number generators as needed...
 
-    # Users can replace the following lines with their own custom simulation logic
-    random_val_1 = rng1.random() # Get a random value from rng1
-    random_val_2 = rng2.random() # Get a random value from rng2
-    result = (x1 * random_val_1 + x2 * random_val_2) / x3 # Example calculation
+    # Call the accelerated simulation logic
+    result = simulation_logic(argsSim, rng1, rng2)
 
     # Return the result as a float
     return float(result)
