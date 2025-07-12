@@ -46,9 +46,7 @@ def custom_procedure(alternatives, configs, replication):
     param2 = configs.get('Number of Processors')
     # Extract more as needed...
 
-    # Generate a simulation sample from alternative[0]
-    alternatives[0].set_seed([replication, 0, 0])  # Example: seed as a list of three non-negative integers
-    sample = alternatives[0].run_simulation()  # Example Output: Simulation Sample: -0.32298573768826494
+    # Custom designed selection process
     
     return {
         'best alternative args': ...,
