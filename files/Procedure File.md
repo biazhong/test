@@ -2,7 +2,7 @@
 
 ## The Procedure (`.py`) File
 
-Define a function named `custom_procedure`, which implements the computational steps for one run of the custom procedure. The function takes specific input arguments and returns a dictionary with required output keys.
+Defines a function named `custom_procedure`, which implements the computational steps for one run of the custom procedure. The function takes specific input arguments and returns a dictionary with required output keys.
 
 **Prerequisites**
 Before creating the `custom_procedure` function, ensure the following:
