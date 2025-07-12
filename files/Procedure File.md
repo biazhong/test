@@ -16,7 +16,7 @@ Before creating the `custom_procedure` function, ensure the following:
   - The ``SampleGen`` class provides methods to:
     - Generate simulation samples for the alternative.
     - Access and modify details associated with the alternative.
-    - For more details about this class, please go to <a href="SampleGen Class.md">.
+    - For more details about this class, please go to <a href="SampleGen Class.md">SampleGen Class</a>.
 - **`configs`**: A dictionary containing input parameters.
   - Keys are parameter names, and values are the corresponding values specified in the GUI.
 - **`replication`**: An integer that records the number of times the procedure has been applied to solve the problem.
