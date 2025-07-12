@@ -1,5 +1,5 @@
 | [**Main Page**](../README.md) | [**How to Use PyPRS**](How%20to%20Use%20PyPRS.md) | [**Output**](Output.md) | [**A Demo Application**](A%20Demo%20Application.md) |
-# ⚙️ How to Use PyPRS
+# How to Use PyPRS
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
 ## 1 🖥️ Running PyPRS on a Single Computer <a name="h1"></a>
