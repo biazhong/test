@@ -4,6 +4,24 @@
 
 Define a function named `custom_procedure`, which implements the computational steps for one run of the custom procedure. The function takes specific input arguments and returns a dictionary with required output keys.
 
+**Prerequisites**
+Before creating the `custom_procedure` function, ensure the following:
+- The **alternatives information file** (**`.txt`** file) is created.
+- The **simulation function file** (**`.py`** file) is created.
+- **Input parameters** are specified in the GUI, including their names and values.
+
+**Arguments**
+- **`alternatives`**: A list of SampleGen class instances.
+  - Each instance corresponds to an alternative listed in the **alternatives information file** (**`.txt`** file).
+  - The SampleGen class provides methods to:
+    - Generate simulation samples for the alternative.
+    - Access and modify details associated with the alternative.
+- **`configs`**: A dictionary containing input parameters.
+  - Keys are parameter names, and values are the corresponding values specified in the GUI.
+- **`replication`**: An integer that records the number of times the procedure has been applied to solve the problem.
+  - Useful for managing random number seeds or implementing Common Random Numbers.
+
+
 
 
 <a href="How to Use PyPRS.md">Back to How to Use PyPRS</a>
