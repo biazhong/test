@@ -48,7 +48,8 @@ def custom_procedure(alternatives, configs, replication):
     # Extract more as needed...
 
     # Custom designed selection process
-    
+    # ...
+
     return {
         'best alternative args': ...,
         'simulation time': ...,
