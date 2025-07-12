@@ -9,18 +9,18 @@ The period of the MRG32k3a random number generator is structured hierarchically:
 - **Substreams**: Each stream contains $2^{47}$ substreams, each with a length of $2^{94}$.
 - **Subsubstreams**: Each substream contains $2^{47}$ subsubstreams, each with a length of $2^{47}$.
 
-# Installation
+## Installation
 To install the `mrg32k3a_numba` package, run the following command in the terminal or command prompt:
 ```bash
 python -m pip install mrg32k3a_numba
 ```
-# Initializing an Instance
+## Initializing an Instance
 To use the random number generator, create an instance of the `MRG32k3a_numba` class and seed it with a NumPy array of three non-negative integers `[s, ss, sss]`, where:
 - `s`: The index of the stream.
 - `ss`: The index of the substream within the chosen stream.
 - `sss`: The index of the subsubstream within the chosen substream.
 
-# Example Usage
+## Example Usage
 Below is an example of how to initialize an instance of the `MRG32k3a_numba` class and generate random numbers:
 ```python
 import numpy as np
@@ -102,7 +102,7 @@ print(f"Actual sum: {np.sum(simplex_vec_exact)}")
 # Actual sum: 100.0
 ```
 
-# Key Methods
+## Key Methods
 The `MRG32k3a_numba` class provides the following key methods:
 * `random()`: Generates a standard uniformly distributed random floating-point number in the range (0.0, 1.0).
 * `uniform(a, b)`: Generates a uniformly distributed random floating-point number in the range `[a, b)`. The parameter `a` is the lower bound and `b` is the upper bound.
@@ -122,7 +122,7 @@ The `MRG32k3a_numba` class provides the following key methods:
 
 
 
-# References
+## References
 - Eckman DJ, Henderson SG, Shashaani S (2023) SimOpt: A testbed for simulation-optimization experiments. INFORMS Journal on Computing 35(2):495–508.
 - L’Ecuyer P (1999) Good parameters and implementations for combined multiple recursive random number generators. Operations Research 47(1):159–164.
 - L’Ecuyer P, Simard R, Chen EJ, Kelton WD (2002) An object-oriented random-number package with many long streams and substreams. Operations Research 50(6):1073–1075.
