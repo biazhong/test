@@ -2,7 +2,7 @@
 # ⚙️ How to Use PyPRS
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
-## 1 🖥️ Running PyPRS on a Single Computer
+## 1 🖥️ Running PyPRS on a Single Computer <a name="h1"></a>
 To run PyPRS on a single computer, users just need to execute the **`GUI.py`** file located in the `UserInterface` package in a Python environment. Once the file is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can:
 - **select a procedure**
 - **configure input parameters**
