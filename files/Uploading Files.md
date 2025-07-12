@@ -26,7 +26,7 @@ In this file, users need to define a Python function named `simulation_function`
   - Contains the parameter information of the alternative.
   - Format matches the `.txt` file:
     - `argsSim[0]`: Index of the alternative.
-    - `argsSim[1]`, `argsSim[1]`, etc: Parameter values (e.g., `x1`, `x2`, `x3`).
+    - `argsSim[1]`, `argsSim[2]`, etc: Parameter values (e.g., `x1`, `x2`, `x3`).
 - **`seedSim`**  (List of Integers):
   - A list of three positive integers used to seed the random number generators.
 
