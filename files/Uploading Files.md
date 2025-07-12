@@ -54,7 +54,7 @@ import numba
 import numpy as np
 
 # Apply the @numba.njit decorator for better performance
-@numba.njit
+@numba.njit(cache=True)
 def simulation_function(argsSim, seedSim) -> float:
     # Extract alternative's parameter information from argsSim
     idx= argsSim[0]  # Index
