@@ -58,7 +58,7 @@ ray start --head --port=6379
 ray start --address=HEAD_NODE_IP:6379
 ```
 ### 2.2 Running PyPRS on the Cluster
-After setting up the Ray cluster, users can execute the **`GUI.py'** file and run PyPRS on the head node using the same process described in <a href="#h1">**Running PyPRS on a Single Computer**</a>. 
+After setting up the Ray cluster, users can run PyPRS on the head node using the same process described in <a href="#h1">**Running PyPRS on a Single Computer**</a>. 
 ## 📖 Notes
 
 PyPRS enables users to run procedures via scripts, alongside the GUI. This supports varied user needs and allows easy integration into automated workflows or complex computational pipelines. For more details, please go to <a href="Scripts for Invoking the Procedures in PyPRS.md">Scripts for Invoking the Procedures in PyPRS</a>.
