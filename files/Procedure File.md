@@ -12,9 +12,9 @@ Before creating the `custom_procedure` function, ensure the following:
 - **Input parameters** are specified in the GUI, including their names and values.
 
 **Arguments**
-- **`alternatives`**: A list of SampleGen class instances.
+- **`alternatives`**: A list of `SampleGen` class instances.
   - Each instance corresponds to an alternative listed in the **alternatives information file** (**`.txt`** file).
-  - The ``SampleGenerate`` class provides methods to:
+  - The `SampleGenerate` class provides methods to:
     - Generate simulation samples for the alternative.
     - Access and modify details associated with the alternative.
     - For more details about this class, please go to <a href="SampleGenerate Class.md">SampleGenerate Class</a>.
@@ -24,6 +24,7 @@ Before creating the `custom_procedure` function, ensure the following:
   - Useful for managing random number seeds or implementing Common Random Numbers.
 
 **Return**
+
 The function must return a dictionary with the following five keys:
 - **best alternative args**: Parameter information for the selected best alternative (format depends on the problem).
 - **simulation time**: Total simulation time used (in appropriate units, e.g., seconds).
@@ -32,6 +33,7 @@ The function must return a dictionary with the following five keys:
 - **utilization**: A measure of processor efficiency in parallel computing, calculated as:  $\text{utilization}=\text{total simulation time}/(\text{number of processors
 }\times \text{wall-clock time})$.
 
+**Function Template**
 
 
 
