@@ -15,9 +15,9 @@ Before creating the `custom_procedure` function, ensure the following:
 - **`alternatives`**: A list of `SampleGenerate` class instances.
   - Each instance corresponds to an alternative specified in the **alternatives information file** (**`.txt`** file).
   - The `SampleGenerate` class provides methods to manage simulations and alternative details, including:
-    - `alternatives[i].get_args()`: Retrieves the alternative's parameter information.
-    - `alternatives[i].set_seed(seed)`: Sets the random number seed for the alternative's next simulation run.
-    - `alternatives[i].get_seed()`: Retrieves the random number seed for the alternative's next simulation run.
+    - `alternatives[i].get_args()`: Retrieves the alternative's parameter information as a **list** of floats, formatted consistently with the structure defined in the **alternatives information file**.
+    - `alternatives[i].set_seed(seed)`: Sets the random number seed for the alternative's next simulation run, where `seed` is a **list** containing 3 non-negative integers.
+    - `alternatives[i].get_seed()`: Retrieves the random number seed for the alternative's next simulation run as a **list** of 3 non-negative integers.
     - `alternatives[i].run_simulation()`: Executes the `simulation_function`, passing the values of `alternatives[i].get_args()` to `argsSim` and `alternatives[i].get_seed()` to `seedSim`， and returns the simulation output as a float.
 - **`configs`**: A dictionary containing input parameters.
   - Keys are parameter names, and values are the corresponding values specified in the GUI.
