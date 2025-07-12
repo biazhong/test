@@ -1,4 +1,4 @@
-[**Main Page**](README.md) | [**How to Use PyPRS**](./files/How%20to%20Use%20PyPRS.md) ([**MRG32k3a_numba**](./files/MRG32k3a_numba.md))| [**Output**](./files/Output.md) | [**A Demo Application**](./files/A%20Demo%20Application.md)
+[**Main Page**](README.md) | [**How to Use PyPRS**](./files/How%20to%20Use%20PyPRS.md) | [**Output**](./files/Output.md) | [**A Demo Application**](./files/A%20Demo%20Application.md)
 
 
 # PyPRS: A Python Software Package for Parallel Ranking and Selection Procedures
@@ -30,5 +30,6 @@ python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 ```bash
 python -m pip install PyPRS
 ```
-
+## 🔍 Technical References
+- [**MRG32k3a_numba**](./files/MRG32k3a_numba.md)
 <p align="right"><a href="./files/How to Use PyPRS.md"> Proceed to How to Use PyPRS</a></p>
