@@ -21,10 +21,10 @@ Below is a screenshot of the GUI:
 To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 
 #### 1) Configuring Input Parameters
-Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please go to <a href="./Input Parameters.md">Input Parameters</a>.
+Each procedure requires specific input parameters.  For detailed explanations of the input parameters for each procedure, please go to <a name="IP" href="./Input Parameters.md">Input Parameters</a>.
 
 #### 2) Uploading Required Files
-In addition to configuring parameters, users must upload two files: one is the **alternatives infromation file** (a **`.txt`** file) and the other one is the **simulation function file** (a **`.py`** file). For detailed discussions about these two files, please go to <a href="./Uploading Files.md">Uploading Files</a>.
+In addition to configuring parameters, users must upload two files: one is the **alternatives infromation file** (a **`.txt`** file) and the other one is the **simulation function file** (a **`.py`** file). For detailed discussions about these two files, please go to <a name="UF" href="./Uploading Files.md">Uploading Files</a>.
 
 
 
