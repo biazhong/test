@@ -2,7 +2,7 @@
 
 ## The Procedure (`.py`) File
 
-Defines a function named `custom_procedure`, which implements the computational steps for one run of the custom procedure. The function takes specific input arguments and returns a dictionary with required output keys.
+Defines a function named `custom_procedure`, which implements the computational steps for one run of the custom procedure. The function takes specific input arguments and returns a dictionary with required output keys. 
 
 **Prerequisites**
 
@@ -23,6 +23,11 @@ Before creating the `custom_procedure` function, ensure the following:
   - Keys are parameter names, and values are the corresponding values specified in the GUI.
 - **`replication`**: An integer that records the number of times the procedure has been applied to solve the problem.
   - Useful for managing random number seeds or implementing Common Random Numbers.
+ 
+**Selection Process**
+Based on the information provided in the arguments, users must implement a custom selection process, which includes defining how the procedure leverages Ray for parallelization. For guidance on programming and using Ray, refer to the official <a href="https://docs.ray.io/en/latest/index.html>Ray</a> website.
+
+
 
 **Return**
 
