@@ -31,6 +31,6 @@ python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 python -m pip install PyPRS
 ```
 ## 🔍 Technical References
-- [**Input Parameters**](./files/Input Parameters.md)
+- [**Input Parameters**](./files/Input%20Parameters%20Main.md)
 - [**MRG32k3a_numba**](./files/MRG32k3a_numba.md)
 <p align="right"><a href="./files/How to Use PyPRS.md"> Proceed to How to Use PyPRS</a></p>
