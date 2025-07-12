@@ -33,7 +33,7 @@ Based on the information provided in the arguments, users must implement a custo
 **Return**
 
 The function must return a dictionary with the following five keys:
-- **best alternative args**: Parameter information for the selected best alternative (format depends on the problem).
+- **best alternative args**: Parameter information for the selected best alternative.
 - **simulation time**: Total simulation time used (in appropriate units, e.g., seconds).
 - **wall-clock time**: Real-world time elapsed during the procedure (in seconds).
 - **total budget**: Total number of samples generated during the procedure.
