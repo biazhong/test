@@ -13,9 +13,9 @@ Before creating the `custom_procedure` function, ensure the following:
 
 **Arguments**
 - **`alternatives`**: A list of `SampleGenerate` class instances.
-  - Each instance corresponds to an alternative specified in the **alternatives information file** (`.txt`).
+  - Each instance corresponds to an alternative specified in the **alternatives information file** (**`.txt`** file).
   - The `SampleGenerate` class provides methods to manage simulations and alternative details, including:
-    - `alternatives[i].get_args()`: Retrieves alternative's parameter information.
+    - `alternatives[i].get_args()`: Retrieves the alternative's parameter information.
     - `alternatives[i].set_seed(seed)`: Sets the random number seed for the alternative's next simulation run.
     - `alternatives[i].get_seed()`: Retrieves the random number seed for the alternative's next simulation run.
     - `alternatives[i].run_simulation()`: Executes the `simulation_function`, passing the values of `alternatives[i].get_args()` to `argsSim` and `alternatives[i].get_seed()` to `seedSim`， and returns the simulation output as a float.
@@ -31,11 +31,28 @@ The function must return a dictionary with the following five keys:
 - **simulation time**: Total simulation time used (in appropriate units, e.g., seconds).
 - **wall-clock time**: Real-world time elapsed during the procedure (in seconds).
 - **total budget**: Total number of samples generated during the procedure.
-- **utilization**: A measure of processor efficiency in parallel computing, calculated as:  $\text{utilization}=\text{total simulation time}/(\text{number of processors
-}\times \text{wall-clock time})$.
+- **utilization**: A measure of processor efficiency in parallel computing, calculated as:  utilization = total simulation time / (number of processors * wall-clock time).
 
 **Function Template**
+```python
+def custom_procedure(alternatives, configs, replication):
+    # Extract input parameter information from configs
+    param1 = configs.get('Repeat')
+    param2 = configs.get('Number of Processors')
+    # Extract more as needed...
 
+    # Generate a simulation sample from alternative[0]
+    alternatives[0].set_seed([replication, 0, 0])  # Example: seed as a list of three non-negative integers
+    sample = alternatives[0].run_simulation()  # Example Output: Simulation Sample: -0.32298573768826494
+    
+    return {
+        'best alternative args': ...,
+        'simulation time': ...,
+        'wall-clock time': ...,
+        'total budget': ...,
+        'utilization': ...
+    }
+```
 
 
 
