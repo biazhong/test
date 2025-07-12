@@ -66,20 +66,20 @@ print(f"Weibull Distribution (scale α=1.0, shape β=1.5): {weibull_variate}")
 # Example Output: Weibull Distribution (scale α=1.0, shape β=1.5): 1.1890835026462618
 
 pareto_variate = rng.paretovariate(2.5)
-print(f"Pareto Distribution (shape α={2.5}): {pareto_variate}")
+print(f"Pareto Distribution (shape α=2.5): {pareto_variate}")
 # Example Output: Pareto Distribution (shape α=2.5): 1.6104763097737471
 
-poisson_variate = rng.poissonvariate(3.5)
-print(f"Poisson Distribution (expected λ=3.5): {poisson_variate}")
-# Example Output: Poisson Distribution (expected λ=10.0): 3
+poisson_variate = rng.poissonvariate(10.0)
+print(f"Poisson Distribution (expected λ=10.0): {poisson_variate}")
+# Example Output: Poisson Distribution (expected λ=10.0): 10
 
 gumbel_variate = rng.gumbelvariate(0.5, 2.0)
 print(f"Gumbel Distribution (location μ=0.5, scale β=2.0): {gumbel_variate}")
-# Example Output: Gumbel Distribution (location μ=0.5, scale β=2.0): 3.7308608595873745
+# Example Output: Gumbel Distribution (location μ=0.5, scale β=2.0): -0.06270158761936906
 
 binomial_variate = rng.binomialvariate(100, 0.25)
 print(f"Binomial Distribution (trials n=100, probability p=0.25): {binomial_variate}")
-# Example Output: Binomial Distribution (trials n=100, probability p=0.25): 36
+# Example Output: Binomial Distribution (trials n=100, probability p=0.25): 34
 
 mean_vector = np.array([0.0, 5.0])
 covariance_matrix = np.array([[1.0, 0.4], [0.4, 1.0]])
@@ -87,19 +87,18 @@ mvnormal_vector = rng.mvnormalvariate(mean_vector, covariance_matrix)
 print(f"Multivariate Normal Vector (mean={mean_vector}, covariance=\n{covariance_matrix}): \n{mvnormal_vector}")
 # Example Output:
 # Multivariate Normal Vector (mean=[0. 5.], covariance=
-# [[1.  0.8]
-#  [0.8 1. ]]):
-# [0.28548717 5.8516565]
+# [[1.  0.4]
+#  [0.4 1. ]]):
+# [1.44401402 6.85552524]
 
-rng = MRG32k3a_numba(np.array([0, 1, 2]))
-simplex_vec_exact = rng.continuous_random_vector_from_simplex(4, 100.0, True)
-print(f"Random Vector from Simplex (elements=4, exact sum=100.0):")
+simplex_vec_exact = rng.continuous_random_vector_from_simplex(4, 10.0, True)
+print(f"Random Vector from Simplex (elements=4, exact sum=10.0):")
 print(simplex_vec_exact)
 print(f"Actual sum: {np.sum(simplex_vec_exact)}")
 # Example Output:
-# Random Vector from Simplex (elements=4, exact sum=100.0):
-# [ 7.3792011  37.47239331 43.14995325 11.99845234]
-# Actual sum: 100.0
+# Random Vector from Simplex (elements=4, exact sum=10.0):
+# [1.6472107  1.75360044 4.48185812 2.11733075]
+# Actual sum: 10.0
 ```
 
 ## Key Methods
