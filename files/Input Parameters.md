@@ -51,4 +51,4 @@
 | `Repeat`                   | Number of times the problem is repeatedly solved.                          |
 | `Reference Seed (Optional)` | Seed used to initialize random number generators.                          |
 
-<a href="How to Use PyPRS.md">Back to How to Use PyPRS</a>
+<a href="How to Use PyPRS.md#IP">Back to How to Use PyPRS</a>
