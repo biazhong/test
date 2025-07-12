@@ -67,7 +67,8 @@ def simulation_logic(argsSim, rng1, rng2) -> float:
 
     random_val_1 = rng1.random() # Get a random value from rng1
     random_val_2 = rng2.random() # Get a random value from rng2
-    return (x1 * random_val_1 + x2 * random_val_2) / x3 # Example calculation
+    result = (x1 * random_val_1 + x2 * random_val_2) / x3 # Example calculation
+    return float(result)
 
 def simulation_function(argsSim, seedSim) -> float:
     # Initialize random number generators based on seedSim
@@ -76,9 +77,9 @@ def simulation_function(argsSim, seedSim) -> float:
     # Add more random number generators as needed...
 
     # Call the accelerated simulation logic
-    result = simulation_logic(argsSim, rng1, rng2)
+    sample = simulation_logic(argsSim, rng1, rng2)
 
     # Return the result as a float
-    return float(result)
+    return float(sample)
 ```
 <a href="How to Use PyPRS.md#UF">Back to How to Use PyPRS</a>
