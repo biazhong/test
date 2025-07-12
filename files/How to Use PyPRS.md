@@ -3,7 +3,7 @@
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
 ## 1 🖥️ Running PyPRS on a Single Computer
-To run PyPRS on a single computer, users just need to execute the `GUI.py` file located in the `UserInterface` package in a Python environment. Once the file is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can:
+To run PyPRS on a single computer, users just need to execute the **`GUI.py`** file located in the `UserInterface` package in a Python environment. Once the file is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can:
 - **select a procedure**
 - **configure input parameters**
 - **upload required files**
@@ -58,7 +58,7 @@ ray start --head --port=6379
 ray start --address=HEAD_NODE_IP:6379
 ```
 ### 2.2 Running PyPRS on the Cluster
-After setting up the Ray cluster, users can run PyPRS on the head node using the same process described in running PyPRS on a single computer. Execute the GUI.py file on the head node.
+After setting up the Ray cluster, users can run PyPRS on the head node using the same process described in running PyPRS on a single computer. Execute the `GUI.py` file on the head node.
 ## 📖Notes
 
 PyPRS enables users to run procedures via scripts, alongside the GUI. This supports varied user needs and allows easy integration into automated workflows or complex computational pipelines. For more details, please go to <a href="Scripts for Invoking the Procedures in PyPRS.md">Scripts for Invoking the Procedures in PyPRS</a>.
