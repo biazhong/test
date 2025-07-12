@@ -1,6 +1,6 @@
 [**Main Page**](../README.md) | [**How to Use PyPRS**](How%20to%20Use%20PyPRS.md) ([**MRG32k3a_numba**](MRG32k3a_numba.md))| [**Output**](Output.md) | [**A Demo Application**](A%20Demo%20Application.md) |
 ## 1 The Alternatives Information File (`.txt` File)
-Defines parameter information for each alternative.
+In this file, users need to define parameter information for each alternative.
 - **Structure**:
   - Each line represents one alternative.
   - The first entry is the index of the alternative (starting from 1, incrementing by 1).
@@ -19,7 +19,7 @@ In this example:
 *Notes*: All values must be numerical. Non-numeric values will cause errors.
 
 ## 2 The Simulation Function File (`.py` File)
-Defines a Python function named `simulation_function`, which is responsible for generating a **simulation sample** from a given alternative using specific random number sequences.
+In this file, users need to define a Python function named `simulation_function`, which is responsible for generating a **simulation sample** from a given alternative using specific random number sequences.
 
 **Arguments**
 - **`argsSim`** (List of Floats):
