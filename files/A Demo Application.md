@@ -31,7 +31,7 @@ In this demo application, all the built-in procedures and a custom procedure, na
 ### 2.1 GSP
 The screenshot below displays the PyPRS GUI during GSP execution:
 
-The performance of GSP on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
+The performance of GSP on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
 | PCS                       | [Value]     | [Lower, Upper]          |
@@ -46,7 +46,7 @@ Users can download the summary and detailed results produced by PyPRS for GSP by
 ### 2.2 The KT Procedure
 The screenshot below displays the PyPRS GUI during the KT procedure execution:
 
-The performance of the KT procedure on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
+The performance of the KT procedure on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
@@ -78,7 +78,7 @@ Users can download the summary and detailed results produced by PyPRS for the PA
 ### 2.4 The FBKT Procedure
 The screenshot below displays the PyPRS GUI during the FBKT procedure execution:
 
-The performance of the FBKT procedure on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection, where $\delta$ is the same as that used in GSP and the KT procedures.
+The performance of the FBKT procedure on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection, where $\delta$ is the same as that used in GSP and the KT procedures.
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
