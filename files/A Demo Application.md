@@ -17,8 +17,9 @@ In this demo application, all the built-in procedures and a custom procedure, na
 
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Uploading Files</a>
 
-### GSP
-### The KT Procedure
-### The PASS Procedure
-### The FBKT Procedure
-### The Custom Procedure
+### 2.1 GSP
+
+### 2.2 The KT Procedure
+### 2.3 The PASS Procedure
+### 2.4 The FBKT Procedure
+### 2.5 The Custom Procedure
