@@ -31,7 +31,20 @@ In this demo application, all the built-in procedures and a custom procedure, na
 ### 2.1 GSP
 The screenshot below displays the PyPRS GUI during GSP execution:
 
-The performance of GSP on this problem is summarized in the table below:
+The performance of GSP on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. When calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
+| Metric                    | Value       | 95% Confidence Interval |
+|---------------------------|-------------|-------------------------|
+| PCS                       | [Value]     | -                       |
+| Wall-Clock Time (s)       | [Value]     | [Lower, Upper]          |
+| Total Simulation Time (s) | [Value]     | [Lower, Upper]          |
+| Total Sample Size         | [Value]     | [Lower, Upper]          |
+| Utilization (%)           | [Value]     | [Lower, Upper]          |
+
+Users can download the summary and detailed results produced by PyPRS for GSP by clicking the link below:
+<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for GSP</a>
+
+
+
 ### 2.2 The KT Procedure
 The screenshot below displays the PyPRS GUI during the KT procedure execution:
 
