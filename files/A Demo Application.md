@@ -112,5 +112,6 @@ After using the equal allocation procedure to solve this problem, the results ar
 | Utilization (%)           | [Value]     | [Lower, Upper]          |
 
 Users can download the summary results produced by PyPRS for the equal allocation procedure by clicking the link below:
-<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Procedure File</a>
+
+<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for GSP</a>
 
