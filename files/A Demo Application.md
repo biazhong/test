@@ -13,11 +13,16 @@ where $f(x; \xi)$ is the random throughput of the flow line. For every feasible 
 
 ## 2 🔧 Using PyPRS to Solve the Problem
 
-In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
+In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  
+
+
+To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
 
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Uploading Files</a>
 
-*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the function for other problems. Download the Python function directly by clicking the following link:
+
+
+*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the function for other problems. 
 
 
 
@@ -25,16 +30,25 @@ In this demo application, all the built-in procedures and a custom procedure, na
 
 
 ### 2.1 GSP
-Below is a screenshot of the GUI when GSP is applied to solve the problem:
+The screenshot below displays the PyPRS GUI during GSP execution:
 
-
+The performance of GSP on this problem is summarized in the table below:
 ### 2.2 The KT Procedure
-Below is a screenshot of the GUI when the KT procedure is applied to solve the problem:
+The screenshot below displays the PyPRS GUI during the KT procedure execution:
+
+The performance of the KT procedure on this problem is summarized in the table below:
+
 
 ### 2.3 The PASS Procedure
-Below is a screenshot of the GUI when the PASS procedure is applied to solve the problem:
+The screenshot below displays the PyPRS GUI during the PASS procedure execution:
+
+The performance of the PASS procedure on this problem is summarized in the table below:
+
 
 ### 2.4 The FBKT Procedure
-Below is a screenshot of the GUI when the FBKT procedure is applied to solve the problem:
+The screenshot below displays the PyPRS GUI during the FBKT procedure execution:
+
+The performance of the FBKT procedure on this problem is summarized in the table below:
+
 
 ### 2.5 The Custom Procedure
