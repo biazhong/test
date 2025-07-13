@@ -13,6 +13,6 @@ where $f(x; \xi)$ is the random throughput of the flow line. For every feasible 
 
 ## Using PyPRS to Solve the Problem
 - **Alternatives Information File** (<a href="https://github.com/user-attachments/files/21203223/TPMax_57624.txt">**`.txt`**</a> file)
-- **Simulation Function File** (<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Equal%20Allocation.py">**`.py`**</a> file)
+- **Simulation Function File** (<a href="blob:https://github.com/395f7d95-d0a8-4d73-9b07-abfaa6e77410">**`.py`**</a> file)
 
 
