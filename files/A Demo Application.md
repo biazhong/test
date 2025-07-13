@@ -12,7 +12,7 @@ The throughput maximization problem considers a flow line system with three stat
 where $f(x; \xi)$ is the random throughput of the flow line. For every feasible solution, we obtain observations of $f(x; \xi)$ by running simulation experiments. For each simulation experiment, we warm up the system with 2,000 jobs. After 2,000 jobs are processed, we observe the throughput of the subsequent 50 jobs. In this demonstration, we let $\mathcal{L}_1=50$ and $\mathcal{L}_2=50$ resulting in 57,624 alternatives available in the problem. 
 
 ## Using PyPRS to Solve the Problem
-**Alternatives Information File** (<a href="./TPMax_57624.txt" download>**`.txt`** file</a>)
+**Alternatives Information File** (<a href="https://github.com/user-attachments/files/21203223/TPMax_57624.txt">**`.txt`** file</a>)
 **Simulation Function File** (<a href="./TPMax_57624_simulation_function.py" download>**`.py`** file</a>)
 
 
