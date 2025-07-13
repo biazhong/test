@@ -92,3 +92,5 @@ Users can download the summary and detailed results produced by PyPRS for the PA
 
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for FBKT</a>
 ### 2.5 The Custom Procedure
+
+In this demo application, when implementing the equal allocation procedure as a custom procedure, we consider two additional input parameters, the total sampling budget `N` and the `Reference Seed` in addition to `Repeat` and `Number of Processors`
