@@ -62,7 +62,7 @@ Users can download the summary and detailed results produced by PyPRS for the KT
 ### 2.3 The PASS Procedure
 The screenshot below displays the PyPRS GUI during the PASS procedure execution:
 
-After using the PASS to solve the problem, the results are summarized in the table below, which reports the average mean of the survive alternatives, Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that for the PASS procedure, we report the average mean of the surviving alternatives instead of the PCS, as multiple alternatives may remain when the procedure terminates.
+After using the PASS to solve the problem, the results are summarized in the table below, which reports the average mean of the surviving alternatives, Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that for the PASS procedure, we report the average mean of the surviving alternatives instead of the PCS, as multiple alternatives may remain when the procedure terminates.
 
 | Metric                              | Value       | 95% Confidence Interval |
 |-------------------------------------|-------------|-------------------------|
@@ -78,7 +78,7 @@ Users can download the summary and detailed results produced by PyPRS for the PA
 ### 2.4 The FBKT Procedure
 The screenshot below displays the PyPRS GUI during the FBKT procedure execution:
 
-After using the FBKT procedure to solve this problem, the results are summarized in the table below, which reports the PCS, Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean of the selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection, where $\delta$ is the same as that used in GSP and the KT procedures.
+After using the FBKT procedure to solve this problem, the results are summarized in the table below, which reports the PCS, Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean of the selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection, where $\delta$ is the same as that used in GSP and the KT procedure.
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
@@ -93,7 +93,7 @@ Users can download the summary and detailed results produced by PyPRS for the PA
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for FBKT</a>
 ### 2.5 The Custom Procedure
 
-In this demo application, when implementing the equal allocation procedure as a custom procedure, we consider two additional input parameters, total sampling budget `N` and `Reference Seed`, in addition to `Repeat` and `Number of Processors`. The selection structure of the procedure is straightforward. At the start of the selection process, based on the total sampling budget set by the users, the procedure evenly allocates the simulation budget across all alternatives. Then, the alternatives are evenly distributed to all processors. Each processor generates simulation samples from the assigned alternatives, and the alternative with the highest sample mean is selected as the best. Users can directly download the procedure file for the equal allocation procedure by clicking the link below:
+In this demo application, when implementing the custom procedure, we consider the equal allocation procedure. The procedure takes two additional input parameters, total sampling budget `N` and `Reference Seed`, in addition to `Repeat` and `Number of Processors`. The selection structure of the procedure is straightforward. At the start of the selection process, based on the total sampling budget set by the users, the procedure evenly allocates the simulation budget across all alternatives. Then, the alternatives are evenly distributed to all processors. Each processor generates simulation samples from the assigned alternatives, and the alternative with the highest sample mean is selected as the best. Users can directly download the procedure file for the equal allocation procedure by clicking the link below:
 
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Procedure File</a>
 
@@ -101,6 +101,16 @@ In this demo application, when implementing the equal allocation procedure as a 
 The screenshot below displays the PyPRS GUI during the equation allocation procedure execution:
 
 
+After using the equal allocation procedure to solve this problem, the results are summarized in the table below, which reports the PCS, Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean of the selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection, where $\delta$ is the same as that used in GSP and the KT procedure.
 
+| Metric                    | Value       | 95% Confidence Interval |
+|---------------------------|-------------|-------------------------|
+| PCS                       | [Value]     | [Lower, Upper]          |
+| Wall-Clock Time (s)       | [Value]     | [Lower, Upper]          |
+| Total Simulation Time (s) | [Value]     | [Lower, Upper]          |
+| Total Sample Size         | [Value]     | [Lower, Upper]          |
+| Utilization (%)           | [Value]     | [Lower, Upper]          |
 
+Users can download the summary results produced by PyPRS for the equal allocation procedure by clicking the link below:
+<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Procedure File</a>
 
