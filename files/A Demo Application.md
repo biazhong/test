@@ -31,6 +31,9 @@ In this demo application, **all the built-in procedures and a custom procedure, 
 ### 2.1 GSP
 The screenshot below displays the PyPRS GUI during GSP execution:
 
+**添加**
+
+
 After using GSP to solve the problem, the results are summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean of the selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
