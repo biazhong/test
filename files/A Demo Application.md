@@ -13,7 +13,7 @@ where $f(x; \xi)$ is the random throughput of the flow line. For every feasible 
 
 ## 2 🔧 Using PyPRS to Solve the Problem
 
-In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  
+In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  This demo application is conducted on ....
 
 
 To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
