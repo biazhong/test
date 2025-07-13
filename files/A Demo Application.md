@@ -11,9 +11,11 @@ The throughput maximization problem considers a flow line system with three stat
 
 where $f(x; \xi)$ is the random throughput of the flow line. For every feasible solution, we obtain observations of $f(x; \xi)$ by running simulation experiments. For each simulation experiment, we warm up the system with 2,000 jobs. After 2,000 jobs are processed, we observe the throughput of the subsequent 50 jobs. In this demonstration, we let $\mathcal{L}_1=50$ and $\mathcal{L}_2=50$ resulting in 57,624 alternatives available in the problem. 
 
+
+
 ## 2 🔧 Using PyPRS to Solve the Problem
 
-In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  This demo application is conducted on a workstation with two 24-core Intel(R) Xeon(R) Gold 6248R processors with 128 Gigabytes of memory, and Microsoft Windows 10 Pro operating system.
+In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  The experiments are conducted on a workstation with two 24-core Intel(R) Xeon(R) Gold 6248R processors with 128 Gigabytes of memory, and Microsoft Windows 10 Pro operating system.
 
 
 To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
