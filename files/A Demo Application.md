@@ -22,7 +22,7 @@ To use PyPRS, users need the **alternatives information file** and **simulation 
 
 
 
-*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the function for other problems. 
+*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Generate%20Alternatives%20Information%20File.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the function for other problems. 
 
 
 
