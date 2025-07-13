@@ -17,6 +17,13 @@ In this demo application, all the built-in procedures and a custom procedure, na
 
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Uploading Files</a>
 
+*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the function for other problems. Download the Python function directly by clicking the following link:
+
+
+
+
+
+
 ### 2.1 GSP
 Below is a screenshot of the GUI when GSP is applied to solve the problem:
 
