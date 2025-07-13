@@ -15,13 +15,13 @@ where $f(x; \xi)$ is the random throughput of the flow line. For every feasible 
 
 ## 2 🔧 Using PyPRS to Solve the Problem
 
-In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  The experiments are conducted on a workstation equiped with two 24-core Intel(R) Xeon(R) Gold 6248R processors with 128 Gigabytes of memory, and Microsoft Windows 10 Pro operating system. To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
+In this demo application, all the built-in procedures and a custom procedure, namely the equal allocation procedure, are applied to solve the throughput maximization problem.  The experiments are conducted on a workstation equiped with **two 24-core Intel(R) Xeon(R) Gold 6248R processors with 128 Gigabytes of memory, and Microsoft Windows 10 Pro operating system**. To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
 
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Uploading Files</a>
 
 
 
-*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Generate%20Alternatives%20Information%20File.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the function for other problems. 
+*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Generate%20Alternatives%20Information%20File.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the file for other problems. 
 
 
 
@@ -31,7 +31,7 @@ In this demo application, all the built-in procedures and a custom procedure, na
 ### 2.1 GSP
 The screenshot below displays the PyPRS GUI during GSP execution:
 
-The performance of GSP on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. When calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
+The performance of GSP on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
 | PCS                       | [Value]     | -                       |
@@ -41,26 +41,30 @@ The performance of GSP on this problem is summarized in the table below, which r
 | Utilization (%)           | [Value]     | [Lower, Upper]          |
 
 Users can download the summary and detailed results produced by PyPRS for GSP by clicking the link below:
+
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for GSP</a>
-
-
-
 ### 2.2 The KT Procedure
 The screenshot below displays the PyPRS GUI during the KT procedure execution:
 
-The performance of the KT procedure on this problem is summarized in the table below:
+The performance of the KT procedure on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
 
+Users can download the summary and detailed results produced by PyPRS for the KT procedure by clicking the link below:
 
+<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for KT</a>
 ### 2.3 The PASS Procedure
 The screenshot below displays the PyPRS GUI during the PASS procedure execution:
 
-The performance of the PASS procedure on this problem is summarized in the table below:
+The performance of the PASS procedure on this problem is summarized in the table below, which reports the average mean of the survive alternatives, Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that for the PASS procedure, we report the average mean of the surviving alternatives instead of the PCS, as multiple alternatives may remain when the procedure terminates.
 
+Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
+<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for PASS</a>
 ### 2.4 The FBKT Procedure
 The screenshot below displays the PyPRS GUI during the FBKT procedure execution:
 
-The performance of the FBKT procedure on this problem is summarized in the table below:
+The performance of the FBKT procedure on this problem is summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the latter four metrics. Note that when calculating the PCS, if the mean selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
 
+Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
+<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for FBKT</a>
 ### 2.5 The Custom Procedure
