@@ -18,8 +18,16 @@ In this demo application, all the built-in procedures and a custom procedure, na
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Uploading Files</a>
 
 ### 2.1 GSP
+Below is a screenshot of the GUI when GSP is applied to solve the problem:
+
 
 ### 2.2 The KT Procedure
+Below is a screenshot of the GUI when the KT procedure is applied to solve the problem:
+
 ### 2.3 The PASS Procedure
+Below is a screenshot of the GUI when the PASS procedure is applied to solve the problem:
+
 ### 2.4 The FBKT Procedure
+Below is a screenshot of the GUI when the FBKT procedure is applied to solve the problem:
+
 ### 2.5 The Custom Procedure
