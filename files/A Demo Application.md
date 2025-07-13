@@ -45,8 +45,6 @@ After using GSP to solve the problem, the results are summarized in the table be
 
 Users can download the summary and detailed results produced by PyPRS for GSP by clicking the link below:
 
-**添加**
-
 <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for GSP</a> **修改**
 ### 2.2 The KT Procedure
 The screenshot below displays the PyPRS GUI during the KT procedure execution:
