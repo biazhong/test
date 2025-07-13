@@ -37,11 +37,11 @@ The screenshot below displays the PyPRS GUI during GSP execution:
 After using GSP to solve the problem, the results are summarized in the table below, which reports the Probability of Correct Selection (PCS), Wall-Clock Time, Total Simulation Time, Total Sample Size, Utilization, and the 95% confidence intervals for the five metrics. Note that when calculating the PCS, if the mean of the selected best alternative is within $\delta$ to that of the true best alternative, we count it as a correct selection.
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | [Value]     | [Lower, Upper]          |
-| Wall-Clock Time (s)       | [Value]     | [Lower, Upper]          |
-| Total Simulation Time (s) | [Value]     | [Lower, Upper]          |
-| Total Sample Size         | [Value]     | [Lower, Upper]          |
-| Utilization (%)           | [Value]     | [Lower, Upper]          |
+| PCS                       | [Value]  **修改**   | [Lower, Upper]   **修改**       |
+| Wall-Clock Time (s)       | [Value]   **修改**  | [Lower, Upper] **修改**         |
+| Total Simulation Time (s) | [Value]  **修改**   | [Lower, Upper]     **修改**     |
+| Total Sample Size         | [Value]  **修改**   | [Lower, Upper]    **修改**      |
+| Utilization (%)           | [Value]  **修改**   | [Lower, Upper]    **修改**      |
 
 Users can download the summary and detailed results produced by PyPRS for GSP by clicking the link below:
 
@@ -58,11 +58,11 @@ After using the KT procedure to solve this problem, the results are summarized i
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | [Value]     | [Lower, Upper]          |
-| Wall-Clock Time (s)       | [Value]     | [Lower, Upper]          |
-| Total Simulation Time (s) | [Value]     | [Lower, Upper]          |
-| Total Sample Size         | [Value]     | [Lower, Upper]          |
-| Utilization (%)           | [Value]     | [Lower, Upper]          |
+| PCS                       | [Value] **修改**    | [Lower, Upper]**修改**          |
+| Wall-Clock Time (s)       | [Value] **修改**    | [Lower, Upper] **修改**         |
+| Total Simulation Time (s) | [Value] **修改**    | [Lower, Upper] **修改**         |
+| Total Sample Size         | [Value] **修改**    | [Lower, Upper] **修改**         |
+| Utilization (%)           | [Value] **修改**    | [Lower, Upper] **修改**         |
 
 Users can download the summary and detailed results produced by PyPRS for the KT procedure by clicking the link below:
 
@@ -77,11 +77,11 @@ After using the PASS to solve the problem, the results are summarized in the tab
 
 | Metric                              | Value       | 95% Confidence Interval |
 |-------------------------------------|-------------|-------------------------|
-| Average Mean of Surviving Alternatives | [Value]  | [Lower, Upper]          |
-| Wall-Clock Time (s)                 | [Value]     | [Lower, Upper]          |
-| Total Simulation Time (s)           | [Value]     | [Lower, Upper]          |
-| Total Sample Size                   | [Value]     | [Lower, Upper]          |
-| Utilization (%)                     | [Value]     | [Lower, Upper]          |
+| Average Mean of Surviving Alternatives | [Value] **修改** | [Lower, Upper]  **修改**        |
+| Wall-Clock Time (s)                 | [Value] **修改**    | [Lower, Upper]  **修改**        |
+| Total Simulation Time (s)           | [Value]**修改**     | [Lower, Upper]  **修改**        |
+| Total Sample Size                   | [Value] **修改**    | [Lower, Upper]  **修改**        |
+| Utilization (%)                     | [Value]**修改**     | [Lower, Upper]  **修改**        |
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
@@ -96,11 +96,11 @@ After using the FBKT procedure to solve this problem, the results are summarized
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | [Value]     | [Lower, Upper]          |
-| Wall-Clock Time (s)       | [Value]     | [Lower, Upper]          |
-| Total Simulation Time (s) | [Value]     | [Lower, Upper]          |
-| Total Sample Size         | [Value]     | [Lower, Upper]          |
-| Utilization (%)           | [Value]     | [Lower, Upper]          |
+| PCS                       | [Value]**修改**     | [Lower, Upper] **修改**         |
+| Wall-Clock Time (s)       | [Value]**修改**     | [Lower, Upper] **修改**         |
+| Total Simulation Time (s) | [Value]**修改**     | [Lower, Upper] **修改**         |
+| Total Sample Size         | [Value] **修改**    | [Lower, Upper] **修改**         |
+| Utilization (%)           | [Value] **修改**    | [Lower, Upper]  **修改**        |
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
@@ -122,11 +122,11 @@ After using the equal allocation procedure to solve this problem, the results ar
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | [Value]     | [Lower, Upper]          |
-| Wall-Clock Time (s)       | [Value]     | [Lower, Upper]          |
-| Total Simulation Time (s) | [Value]     | [Lower, Upper]          |
-| Total Sample Size         | [Value]     | [Lower, Upper]          |
-| Utilization (%)           | [Value]     | [Lower, Upper]          |
+| PCS                       | [Value] **修改**    | [Lower, Upper]**修改**          |
+| Wall-Clock Time (s)       | [Value]  **修改**   | [Lower, Upper]**修改**          |
+| Total Simulation Time (s) | [Value] **修改**    | [Lower, Upper]**修改**          |
+| Total Sample Size         | [Value] **修改**    | [Lower, Upper]  **修改**        |
+| Utilization (%)           | [Value]**修改**     | [Lower, Upper]  **修改**        |
 
 Users can download the summary results produced by PyPRS for the equal allocation procedure by clicking the link below:
 
