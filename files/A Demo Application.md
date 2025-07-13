@@ -95,7 +95,7 @@ Users can download the summary and detailed results produced by PyPRS for the PA
 
 In this demo application, when implementing the custom procedure, we consider the equal allocation procedure. The procedure takes two additional input parameters, total sampling budget `N` and `Reference Seed`, in addition to `Repeat` and `Number of Processors`. The selection structure of the procedure is straightforward. At the start of the selection process, based on the total sampling budget set by the users, the procedure evenly allocates the simulation budget across all alternatives. Then, the alternatives are evenly distributed to all processors. Each processor generates simulation samples from the assigned alternatives, and the alternative with the highest sample mean is selected as the best. Users can directly download the procedure file for the equal allocation procedure by clicking the link below:
 
-<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Procedure File</a>
+<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Equal%20Allocation.zip">Download Procedure File</a>
 
 
 The screenshot below displays the PyPRS GUI during the equation allocation procedure execution:
