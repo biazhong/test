@@ -49,9 +49,7 @@ Utilization:
   95% Confidence Interval: (<value>, <value>)
 ```
 ## 2 📈 Detailed Results
-For built-in procedures in PyPRS, a `DetailedResults.txt` file is generated alongside the `SummaryResults.txt` file to capture comprehensive data from each macroreplication's execution. As different procedures employ distinct selection structures, the content of the `DetailedResults.txt` file varies depending on the specific procedure. Additionally, for each built-in procedure, PyPRS generates figures to visualize the detailed results, which are saved locally as image files.
-
-Below, we outline the contents of the `DetailedResults.txt` file for each procedure.
+For built-in procedures in PyPRS, a `DetailedResults.txt` file is generated alongside the `SummaryResults.txt` file to capture comprehensive data from each macroreplication's execution. As different procedures employ distinct selection structures, the content of the `DetailedResults.txt` file varies depending on the specific procedure. Additionally, for each built-in procedure, PyPRS generates figures to visualize the detailed results, which are saved locally as image files. Below, we outline the contents of the `DetailedResults.txt` file for each procedure.
 
 ### GSP
 We collect the following data at different time stamps during the execution of the procedure:
