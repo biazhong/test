@@ -16,7 +16,7 @@ For both built-in and custom procedures, the summary results are stored in the `
   - **Performance Summary**: Calculates the means of `Total Simulation Time`, `Wall-Clock Time`, `Total Sample Size`, and `Utilization` based on all macroreplications (95% confidence intervals are calculated when the number of macroreplications is 10 or greater).
 - **Example Format**:
 ```markdown
-GSP Results
+<Selected Procedure> Results
 ==================================================
 
 Macroreplication 1 Results:
