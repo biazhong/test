@@ -100,7 +100,10 @@ Stage 3:
 Macroreplication 2 Results:
 ...
 ```
-
+Figures generated:
+- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Cumulative Simulation Time`
+- ...
 
 ### The KT Procedure
 We collect the following data at different time stamps during the execution of the procedure:
@@ -129,6 +132,10 @@ Round 2:
 Macroreplication 2 Results:
 ...
 ```
+Figures generated:
+- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Cumulative Simulation Time`
+- ...
 ### The PASS Procedure
 We collect the following data at different time stamps during the execution of the procedure:
 - `Current Max Mean`: The maximum sample mean observed.
@@ -167,6 +174,10 @@ Interceptor 2:
 Macroreplication 2 Results:
 ...
 ```
+Figures generated:
+- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Cumulative Simulation Time`
+- ...
 ### The FBKT Procedure
 We collect the following data at different time stamps during the execution of the procedure:
 - `Current Max Mean`: The maximum sample mean observed.
@@ -200,7 +211,10 @@ Round 2:
 Macroreplication 2 Results:
 ...
 ```
-
+Figures generated:
+- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Cumulative Simulation Time`
+- ...
 
 
 
