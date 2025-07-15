@@ -101,7 +101,7 @@ Macroreplication 2 Results:
 ...
 ```
 Figures generated:
-- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Current Max Mean` versus stage
 - A plot of `Cumulative Simulation Time`
 - ...
 
@@ -133,7 +133,7 @@ Macroreplication 2 Results:
 ...
 ```
 Figures generated:
-- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Current Max Mean` versus round
 - A plot of `Cumulative Simulation Time`
 - ...
 ### The PASS Procedure
@@ -175,7 +175,7 @@ Macroreplication 2 Results:
 ...
 ```
 Figures generated:
-- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Current Max Mean` versus stage
 - A plot of `Cumulative Simulation Time`
 - ...
 ### The FBKT Procedure
@@ -212,7 +212,7 @@ Macroreplication 2 Results:
 ...
 ```
 Figures generated:
-- A plot of `Current Max Mean` versus number of rounds
+- A plot of `Current Max Mean` versus round
 - A plot of `Cumulative Simulation Time`
 - ...
 
