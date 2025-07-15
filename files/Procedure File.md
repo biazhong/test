@@ -43,7 +43,7 @@ The function must return a dictionary with the following five keys:
 - **best alternative args**: Parameter information for the selected best alternative.
 - **simulation time**: Total simulation time used (in appropriate units, e.g., seconds).
 - **wall-clock time**: Real-world time elapsed during the procedure (in seconds).
-- **total budget**: Total number of samples generated during the procedure.
+- **total sample size**: Total number of samples generated during the procedure.
 - **utilization**: A measure of processor efficiency in parallel computing, calculated as:  utilization = total simulation time / (number of processors * wall-clock time).
 
 **Function Template**
@@ -61,7 +61,7 @@ def custom_procedure(alternatives, configs, replication):
         'best alternative args': ...,
         'simulation time': ...,
         'wall-clock time': ...,
-        'total budget': ...,
+        'total sample size': ...,
         'utilization': ...
     }
 ```
