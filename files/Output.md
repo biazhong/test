@@ -3,7 +3,7 @@
 # The Output of PyPRS
 After successfully using a procedure in PyPRS to solve a specific problem, the results are stored locally. Currently, PyPRS generates two types of results, i.e., **summary results** and **detailed results**. 
 
-## 📑 Summary Results
+## 1 📑 Summary Results
 For both built-in and custom procedures, the summary results are stored in the `SummaryResults.txt` file upon solving a problem. The data within the `SummaryResults.txt` file is organized as follows:
 - **Structure**:
   - **Header**: Specifies the selected procedure.
@@ -48,7 +48,7 @@ Utilization:
   Mean: <value>
   95% Confidence Interval: (<value>, <value>)
 ```
-## 📈 Detailed Results
+## 2 📈 Detailed Results
 For built-in procedures in PyPRS, a `DetailedResults.txt` file is generated alongside the `SummaryResults.txt` file to capture comprehensive data from each macroreplication's execution. As different procedures employ distinct selection structures, the content of the `DetailedResults.txt` file varies depending on the specific procedure. Additionally, for each built-in procedure, PyPRS generates figures to visualize the detailed results, which are saved locally as image files.
 
 Below, we outline the contents of the `DetailedResults.txt` file for each procedure.
