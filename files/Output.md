@@ -70,30 +70,30 @@ GSP Detailed Results
 Macroreplication 1 Results:
 --------------------
 Stage 1:
-  Current Max Mean: 5.965340744365814
-  Cumulative Simulation Time (s): 60.01747965812683
-  Cumulative Sample Size: 162450
-  Wall-Clock Time (s): 5.225084543228149
-  Utilization: 0.7179008200918862
-  Number of Surviving Alternatives: 1461
+  Current Max Mean: <value>
+  Cumulative Simulation Time (s): <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
+  Utilization: <value>
+  Number of Surviving Alternatives: <value>
 
 Stage 2 Round 1:
-  Current Max Mean: 5.83715423797851
-  Cumulative Simulation Time (s): 95.95023679733276
-  Cumulative Sample Size: 383315
-  Wall-Clock Time (s): 7.8184897899627686
-  Utilization: 0.7670138301557922
-  Number of Surviving Alternatives: 243
+  Current Max Mean: <value>
+  Cumulative Simulation Time (s): <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
+  Utilization: <value>
+  Number of Surviving Alternatives: <value>
 
 ...
 
 Stage 3:
-  Current Max Mean: 5.861763948348127
-  Cumulative Simulation Time (s): 120.10308980941772
-  Cumulative Sample Size: 526473
-  Wall-Clock Time (s): 9.723674774169922
-  Number of Surviving Alternatives: 1
-  Utilization: 0.771975954299583
+  Current Max Mean: <value>
+  Cumulative Simulation Time (s): <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
+  Number of Surviving Alternatives: <value>
+  Utilization: <value>
 
 ====================
 
@@ -117,10 +117,10 @@ KT Detailed Results
 Macroreplication 1 Results:
 --------------------
 Round 1:
-  Current Max Mean: 6.011148701619706
-  Cumulative Simulation Time (s): 58.446797370910645
-  Cumulative Sample Size: 165309
-  Wall-Clock Time (s): 4.7057976722717285
+  Current Max Mean: <value>
+  Cumulative Simulation Time (s): <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
 
 Round 2:
 ...
@@ -145,20 +145,20 @@ PASS Detailed Results
 Macroreplication 1 Results:
 --------------------
 Data Collection Phase:
-  Current Max Mean: 6.207356586687277
-  Cumulative Sample Size: 32490
-  Wall-Clock Time (s): 3.668546438217163
-  Standard Mu: 2.5312306211370683
-  Number of Surviving Alternatives: 3249
-  Current Minimum Sample Size: 10
+  Current Max Mean: <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
+  Standard Mu: <value>
+  Number of Surviving Alternatives: <value>
+  Current Minimum Sample Size: <value>
 
 Interceptor 1:
-  Current Max Mean: 6.207356586687277
-  Cumulative Sample Size: 32590
-  Wall-Clock Time (s): 3.7105441093444824
-  Standard Mu: 2.5478639930200124
-  Number of Surviving Alternatives: 3200
-  Current Minimum Sample Size: 10
+  Current Max Mean: <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
+  Standard Mu: <value>
+  Number of Surviving Alternatives: <value>
+  Current Minimum Sample Size: <value>
 
 Interceptor 2:
 ...
@@ -182,16 +182,16 @@ FBKT Detailed Results
 Macroreplication 1 Results:
 --------------------
 Seeding Stage:
-  Current Max Mean: 6.327721876658027
-  Cumulative Simulation Time (s): 46.36060857772827
-  Cumulative Sample Size: 48735
-  Wall-Clock Time (s): 3.8846404552459717
+  Current Max Mean: <value>
+  Cumulative Simulation Time (s): <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
 
 Round 1:
-  Current Max Mean: 6.327721876658027
-  Cumulative Simulation Time (s): 54.57764410972595
-  Cumulative Sample Size: 100479
-  Wall-Clock Time (s): 4.400677919387817
+  Current Max Mean: <value>
+  Cumulative Simulation Time (s): <value>
+  Cumulative Sample Size: <value>
+  Wall-Clock Time (s): <value>
 
 Round 2:
 ...
